@@ -1,0 +1,260 @@
+export const initialRecipes = [
+  {
+    id: 1,
+    name: "Classic Spaghetti Carbonara",
+    category: "Italian",
+    difficulty: "Medium",
+    prepTime: "10 mins",
+    cookTime: "20 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80",
+    ingredients: [
+      "400g spaghetti",
+      "200g pancetta or guanciale, diced",
+      "4 large eggs",
+      "100g Pecorino Romano cheese, grated",
+      "Black pepper to taste",
+      "Salt for pasta water"
+    ],
+    instructions: [
+      "Bring a large pot of salted water to boil and cook spaghetti according to package directions.",
+      "While pasta cooks, fry pancetta in a large skillet over medium heat until crispy.",
+      "In a bowl, whisk together eggs, grated cheese, and plenty of black pepper.",
+      "Reserve 1 cup of pasta water, then drain the pasta.",
+      "Remove skillet from heat, add pasta to pancetta, and toss.",
+      "Add egg mixture and toss quickly, adding pasta water as needed to create a creamy sauce.",
+      "Serve immediately with extra cheese and black pepper."
+    ],
+    description: "A classic Roman pasta dish with eggs, cheese, and crispy pancetta in a creamy sauce."
+  },
+  {
+    id: 2,
+    name: "Chicken Tikka Masala",
+    category: "Indian",
+    difficulty: "Medium",
+    prepTime: "30 mins",
+    cookTime: "40 mins",
+    servings: 6,
+    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+    ingredients: [
+      "800g chicken breast, cubed",
+      "1 cup plain yogurt",
+      "2 tbsp tikka masala spice blend",
+      "1 large onion, diced",
+      "4 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "400ml coconut cream",
+      "400g crushed tomatoes",
+      "2 tbsp vegetable oil",
+      "Fresh cilantro for garnish",
+      "Salt to taste"
+    ],
+    instructions: [
+      "Marinate chicken in yogurt and half the spice blend for at least 30 minutes.",
+      "Heat oil in a large pan and cook chicken until browned. Set aside.",
+      "In the same pan, sauté onion until soft, then add garlic and ginger.",
+      "Add remaining spices and cook for 1 minute until fragrant.",
+      "Add crushed tomatoes and simmer for 10 minutes.",
+      "Stir in coconut cream and return chicken to the pan.",
+      "Simmer for 15-20 minutes until chicken is cooked through.",
+      "Garnish with fresh cilantro and serve with rice or naan."
+    ],
+    description: "Tender chicken in a rich, creamy tomato-based sauce with aromatic Indian spices."
+  },
+  {
+    id: 3,
+    name: "Classic Caesar Salad",
+    category: "Salad",
+    difficulty: "Easy",
+    prepTime: "15 mins",
+    cookTime: "5 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800&q=80",
+    ingredients: [
+      "2 romaine lettuce hearts, chopped",
+      "1 cup croutons",
+      "1/2 cup Parmesan cheese, shaved",
+      "2 cloves garlic",
+      "2 anchovy fillets",
+      "1 egg yolk",
+      "2 tbsp lemon juice",
+      "1 tsp Dijon mustard",
+      "1/2 cup olive oil",
+      "Salt and pepper to taste"
+    ],
+    instructions: [
+      "Make the dressing: In a bowl, mash garlic and anchovies into a paste.",
+      "Whisk in egg yolk, lemon juice, and Dijon mustard.",
+      "Slowly drizzle in olive oil while whisking constantly until emulsified.",
+      "Season with salt and pepper to taste.",
+      "In a large bowl, toss romaine lettuce with dressing.",
+      "Add croutons and Parmesan cheese.",
+      "Toss gently and serve immediately."
+    ],
+    description: "Crisp romaine lettuce with creamy Caesar dressing, croutons, and Parmesan cheese."
+  },
+  {
+    id: 4,
+    name: "Beef Tacos",
+    category: "Mexican",
+    difficulty: "Easy",
+    prepTime: "10 mins",
+    cookTime: "15 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80",
+    ingredients: [
+      "500g ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "2 tbsp taco seasoning",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "1 cup shredded cheese",
+      "1/2 cup sour cream",
+      "Salsa for serving"
+    ],
+    instructions: [
+      "In a large skillet, cook ground beef over medium-high heat until browned.",
+      "Add diced onion and garlic, cook until softened.",
+      "Stir in taco seasoning and 1/4 cup water.",
+      "Simmer for 5 minutes until sauce thickens.",
+      "Warm taco shells according to package directions.",
+      "Fill shells with beef mixture.",
+      "Top with lettuce, tomatoes, cheese, and sour cream.",
+      "Serve with salsa on the side."
+    ],
+    description: "Seasoned ground beef in crispy taco shells with fresh toppings and all the fixings."
+  },
+  {
+    id: 5,
+    name: "Chocolate Chip Cookies",
+    category: "Dessert",
+    difficulty: "Easy",
+    prepTime: "15 mins",
+    cookTime: "12 mins",
+    servings: 24,
+    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80",
+    ingredients: [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups chocolate chips"
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C).",
+      "In a bowl, whisk together flour, baking soda, and salt.",
+      "In a large bowl, cream together butter and both sugars until fluffy.",
+      "Beat in eggs and vanilla extract.",
+      "Gradually stir in flour mixture until just combined.",
+      "Fold in chocolate chips.",
+      "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+      "Bake for 10-12 minutes until golden brown.",
+      "Cool on baking sheet for 2 minutes, then transfer to a wire rack."
+    ],
+    description: "Classic homemade cookies loaded with chocolate chips - soft, chewy, and delicious."
+  },
+  {
+    id: 6,
+    name: "Greek Salad",
+    category: "Salad",
+    difficulty: "Easy",
+    prepTime: "15 mins",
+    cookTime: "0 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+    ingredients: [
+      "4 large tomatoes, cut into wedges",
+      "1 cucumber, sliced",
+      "1 red onion, thinly sliced",
+      "1 green bell pepper, chopped",
+      "200g feta cheese, cubed",
+      "1 cup Kalamata olives",
+      "1/4 cup olive oil",
+      "2 tbsp red wine vinegar",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    instructions: [
+      "In a large bowl, combine tomatoes, cucumber, onion, and bell pepper.",
+      "Add feta cheese and olives.",
+      "In a small bowl, whisk together olive oil, vinegar, oregano, salt, and pepper.",
+      "Pour dressing over salad and toss gently.",
+      "Let sit for 10 minutes to allow flavors to meld.",
+      "Serve at room temperature or chilled."
+    ],
+    description: "Fresh Mediterranean salad with tomatoes, cucumber, feta cheese, and olives."
+  },
+  {
+    id: 7,
+    name: "Pad Thai",
+    category: "Thai",
+    difficulty: "Medium",
+    prepTime: "20 mins",
+    cookTime: "15 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80",
+    ingredients: [
+      "200g rice noodles",
+      "300g shrimp, peeled and deveined",
+      "2 eggs, beaten",
+      "3 cloves garlic, minced",
+      "1 cup bean sprouts",
+      "3 green onions, chopped",
+      "1/4 cup peanuts, crushed",
+      "3 tbsp fish sauce",
+      "2 tbsp tamarind paste",
+      "2 tbsp brown sugar",
+      "2 tbsp vegetable oil",
+      "Lime wedges for serving"
+    ],
+    instructions: [
+      "Soak rice noodles in warm water for 30 minutes, then drain.",
+      "Mix fish sauce, tamarind paste, and brown sugar in a bowl.",
+      "Heat oil in a wok over high heat. Add garlic and cook for 30 seconds.",
+      "Add shrimp and cook until pink, about 3 minutes.",
+      "Push shrimp to the side, add eggs and scramble.",
+      "Add noodles and sauce mixture, toss to combine.",
+      "Add bean sprouts and green onions, cook for 2 minutes.",
+      "Serve topped with crushed peanuts and lime wedges."
+    ],
+    description: "Classic Thai stir-fried noodles with shrimp, eggs, and a perfect balance of sweet and tangy flavors."
+  },
+  {
+    id: 8,
+    name: "Margherita Pizza",
+    category: "Italian",
+    difficulty: "Medium",
+    prepTime: "90 mins",
+    cookTime: "15 mins",
+    servings: 4,
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+    ingredients: [
+      "500g pizza dough",
+      "1 cup tomato sauce",
+      "300g fresh mozzarella, sliced",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "Salt to taste",
+      "Flour for dusting"
+    ],
+    instructions: [
+      "Preheat oven to 475°F (245°C) with a pizza stone if available.",
+      "Let dough come to room temperature for 30 minutes.",
+      "Roll out dough on a floured surface to desired thickness.",
+      "Mix tomato sauce with garlic and a pinch of salt.",
+      "Spread sauce evenly over dough, leaving a border for the crust.",
+      "Arrange mozzarella slices on top.",
+      "Drizzle with olive oil.",
+      "Bake for 12-15 minutes until crust is golden and cheese is bubbly.",
+      "Top with fresh basil leaves before serving."
+    ],
+    description: "Classic Italian pizza with tomato sauce, fresh mozzarella, and basil - simple and delicious."
+  }
+];
